@@ -65,7 +65,7 @@ class gameplay extends Phaser.Scene {
         var ey = 300;
         
         //stast player
-        var atk = 1;
+        var atk = 1000;
         var puntos = 0;
         var tiempo;
         var vidaP = 20;
@@ -169,6 +169,7 @@ class gameplay extends Phaser.Scene {
                 this.scene.start('ganarw1', puntos);
                 casaM.stop();
                 cityM.stop();
+                escuelaM.stop();
 
             }
 
